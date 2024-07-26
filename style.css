@@ -1,0 +1,32 @@
+@font-face {
+    font-family:'milky_nice';
+    src: url("fonts/milky_nice/MilkyNice-Clean.ttf");
+}
+
+@font-face {
+    font-family:'sunday_mango';
+    src: url("fonts/sunday_mango/Sunday\ Mango.ttf");
+
+}
+body {
+    background: rgb(215,161,86);
+    background: linear-gradient(90deg, rgba(215,161,86,1) 0%, rgba(255,191,102,1) 100%);
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    height: 165px;
+}
+
+.container-grid a{
+    color: #FFFAEC;
+   font-family: 'milky_nice';
+   font-size: 40px; 
+  justify-content: space-between;
+
+}
